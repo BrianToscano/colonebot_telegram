@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, MessageHandler, filters, CallbackContext, CommandHandler
 from archivotron import busca_arreglo
-TOKEN = "8161699264:AAEE5KG7RqGpMTghh7twG7k4CH16LvbUa2s"
+TOKEN = "token"
 
 # Función para responder al comando /start
 async def start(update: Update, context: CallbackContext):
